@@ -8,8 +8,5 @@ class Post(models.Model):
     timestamp = models.DateTimeField()
 
 
-class PostAdmin(admin.ModelAdmin):
-    list_display = ('title', 'timestamp')
 
-
-admin.site.register(Post, PostAdmin)
+# admin.site.register(PostAdmin)
